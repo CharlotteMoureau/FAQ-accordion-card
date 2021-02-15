@@ -1,0 +1,57 @@
+@import 'colors.scss';
+
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 12px;
+    background-image: linear-gradient($primary-gradient-1, $primary-gradient-2);
+
+    main {
+        .container {
+            background-color: white;
+            margin-left: 5%;
+            margin-right: 5%;
+            margin-top: 40%;
+            border-radius: 25px;
+
+            .main-grid {
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+
+                .image {
+                    height: 100px;
+
+                    .mobile {
+                        position: relative;
+
+                        img {
+                            position: absolute;
+                        }
+
+                        .square {
+                            top: -30px;
+                        }
+
+                        .woman {
+                            top: -105px
+                        }
+                    }
+
+                    .desktop {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+
+    footer {
+        .attribution {
+            font-size: 11px;
+            text-align: center;
+
+            a {
+                color: hsl(228, 45%, 44%);
+            }
+        }
+    }
+}

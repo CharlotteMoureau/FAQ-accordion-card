@@ -50,29 +50,61 @@ body {
   background-image: linear-gradient(#af67e9, #6565e7); }
   body main .container {
     background-color: white;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 6%;
+    margin-right: 6%;
     margin-top: 40%;
+    margin-bottom: 40%;
     border-radius: 25px; }
     body main .container .main-grid {
       display: grid;
       grid-template-columns: repeat(1, 1fr); }
       body main .container .main-grid .image {
-        height: 100px; }
+        height: 150px; }
         body main .container .main-grid .image .mobile {
           position: relative; }
           body main .container .main-grid .image .mobile img {
             position: absolute; }
           body main .container .main-grid .image .mobile .square {
-            top: -30px; }
+            top: -5%;
+            margin-left: 15%; }
           body main .container .main-grid .image .mobile .woman {
-            top: -105px; }
+            top: -105px;
+            margin-left: 8%; }
         body main .container .main-grid .image .desktop {
           display: none; }
-  body footer .attribution {
-    font-size: 11px;
-    text-align: center; }
-    body footer .attribution a {
-      color: #3e52a3; }
+      body main .container .main-grid .FAQ h1 {
+        margin-bottom: 10%;
+        font-weight: 700;
+        font-size: 2rem;
+        color: #1d1e35;
+        text-align: center; }
+      body main .container .main-grid .FAQ .faq-points {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 7%;
+        margin-right: 7%;
+        margin-bottom: 5%;
+        border-bottom: 1px solid #e7e7e9; }
+        body main .container .main-grid .FAQ .faq-points h2 {
+          color: #4a4b5e;
+          font-size: 0.81rem;
+          margin-bottom: 5%; }
+        body main .container .main-grid .FAQ .faq-points img {
+          height: 30%; }
+        body main .container .main-grid .FAQ .faq-points .answer {
+          display: none; }
+          body main .container .main-grid .FAQ .faq-points .answer p {
+            color: #787887;
+            margin-right: 15%;
+            margin-bottom: 5%;
+            line-height: 1.2rem;
+            text-align: justify; }
+  body footer {
+    margin-bottom: 15%; }
+    body footer .attribution {
+      font-size: 11px;
+      text-align: center; }
+      body footer .attribution a {
+        color: white; }
 
 /*# sourceMappingURL=style.css.map */

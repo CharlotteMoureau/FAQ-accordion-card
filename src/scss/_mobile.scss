@@ -8,9 +8,10 @@ body {
     main {
         .container {
             background-color: white;
-            margin-left: 5%;
-            margin-right: 5%;
+            margin-left: 6%;
+            margin-right: 6%;
             margin-top: 40%;
+            margin-bottom: 40%;
             border-radius: 25px;
 
             .main-grid {
@@ -18,7 +19,7 @@ body {
                 grid-template-columns: repeat(1, 1fr);
 
                 .image {
-                    height: 100px;
+                    height: 150px;
 
                     .mobile {
                         position: relative;
@@ -28,11 +29,13 @@ body {
                         }
 
                         .square {
-                            top: -30px;
+                            top: -5%;
+                            margin-left: 15%;
                         }
 
                         .woman {
-                            top: -105px
+                            top: -105px;
+                            margin-left: 8%;
                         }
                     }
 
@@ -40,17 +43,60 @@ body {
                         display: none;
                     }
                 }
+
+                .FAQ {
+                    h1 {
+                        margin-bottom: 10%;
+                        font-weight: 700;
+                        font-size: 2rem;
+                        color: $primary-text-1;
+                        text-align: center;
+                    }
+
+                    .faq-points {
+                        display: flex;
+                        justify-content: space-between;
+                        margin-left: 7%;
+                        margin-right: 7%;
+                        margin-bottom: 5%;
+                        border-bottom: 1px solid $dividers;
+                            
+                        h2 {
+                            color: $neutral-text-1;
+                            font-size: 0.81rem;
+                            margin-bottom: 5%;
+                        }
+
+                        img {              
+                            height: 30%;
+                        }
+
+                        .answer {
+                            display: none;
+    
+                            p {
+                                color: $neutral-text-2;
+                                margin-right: 15%;
+                                margin-bottom: 5%;
+                                line-height: 1.2rem;
+                                text-align: justify;
+                            }
+                        }
+                    }
+                }
             }
         }
     }
 
     footer {
+        margin-bottom: 15%;
+
         .attribution {
             font-size: 11px;
             text-align: center;
 
             a {
-                color: hsl(228, 45%, 44%);
+                color: white;
             }
         }
     }

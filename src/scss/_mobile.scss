@@ -4,6 +4,9 @@ body {
     font-family: 'Kumbh Sans', sans-serif;
     font-size: 12px;
     background-image: linear-gradient($primary-gradient-1, $primary-gradient-2);
+    height: 100vh;
+    margin-top: 40%;
+    overflow: hidden;
 
     main {
         .container {
@@ -11,7 +14,7 @@ body {
             margin-left: 6%;
             margin-right: 6%;
             margin-top: 40%;
-            margin-bottom: 40%;
+            margin-bottom: 20%;
             border-radius: 25px;
 
             .main-grid {
@@ -42,11 +45,15 @@ body {
                     .desktop {
                         display: none;
                     }
+
+                    .orange-box {
+                        display: none;
+                    }
                 }
 
                 .FAQ {
                     h1 {
-                        margin-bottom: 10%;
+                        margin-bottom: 5%;
                         font-weight: 700;
                         font-size: 2rem;
                         color: $primary-text-1;
@@ -54,21 +61,33 @@ body {
                     }
 
                     .faq-points {
-                        display: flex;
-                        justify-content: space-between;
+                        display: grid;
+                        grid-template-columns: repeat(1, 1fr);
                         margin-left: 7%;
                         margin-right: 7%;
-                        margin-bottom: 5%;
+                        padding-top: 5%;
                         border-bottom: 1px solid $dividers;
-                            
-                        h2 {
-                            color: $neutral-text-1;
-                            font-size: 0.81rem;
-                            margin-bottom: 5%;
-                        }
+                        cursor: pointer;
 
-                        img {              
-                            height: 30%;
+                        .question {
+                            display: flex;
+                            justify-content: space-between;
+                            margin-bottom: 5%;
+
+                            h2 {
+                                color: $neutral-text-1;
+                                font-size: 0.81rem;
+                            }
+        
+                            img {              
+                                height: 50%;
+                            }
+                        } 
+
+                        &:hover {
+                            h2 {
+                                color: $primary-text-2;
+                            }
                         }
 
                         .answer {
@@ -89,8 +108,7 @@ body {
     }
 
     footer {
-        margin-bottom: 15%;
-
+        
         .attribution {
             font-size: 11px;
             text-align: center;

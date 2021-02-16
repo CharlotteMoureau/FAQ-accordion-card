@@ -1,19 +1,15 @@
 // const accordion = document.getElementsByClassName("faq-points");
+// const myH2 = document.getElementsByClassName('test');
+
+// console.log(accordion);
 
 // for (let i = 0; i < accordion.length; i++) {
 //     accordion[i].addEventListener("click", function () {
-//         /* Toggle between adding and removing the "active" class,
-//         to highlight the button that controls the panel */
-//         this.classList.toggle("active");
-
-//         /* Toggle between hiding and showing the active panel */
-//         let panel = this.nextElementSibling;
-//         console.log(panel);
-//         if (panel.style.display === "block") {
-//             panel.style.display = "none";
-//         } else {
-//             panel.style.display = "block";
-//         }
-//         console.log(panel);
+//         console.log(i);
+//         myH2.style.background = 'red'
 //     });
 // }
+
+document.getElementById('testp').addEventListener("click", function () {
+    document.getElementById('testm').style.color = "purple";
+});

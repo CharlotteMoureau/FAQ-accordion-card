@@ -28,3 +28,5 @@ Mobile:
 ## My method
 
 I chose to use Sass and to give Javascript a go. I am going for a mobile-first approach.
+
+## [The result](https://charlottemoureau.github.io/FAQ-accordion-card/)

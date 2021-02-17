@@ -5,7 +5,6 @@ body {
     font-size: 12px;
     background-image: linear-gradient($primary-gradient-1, $primary-gradient-2);
     height: 100vh;
-    margin-top: 40%;
     overflow: hidden;
 
     main {
@@ -79,10 +78,14 @@ body {
                                 font-size: 0.81rem;
                             }
         
-                            img {              
+                            .arrow {              
                                 height: 50%;
                             }
-                        } 
+
+                            .rotated {
+                                transform: rotate(180deg);
+                            }
+                        }
 
                         &:hover {
                             h2 {
@@ -99,6 +102,15 @@ body {
                                 margin-bottom: 5%;
                                 line-height: 1.2rem;
                                 text-align: justify;
+                            }
+                        }
+                    }
+
+                    .active {
+                        .question {
+                            h2 {
+                                color: $primary-text-1;
+                                font-weight: 700;
                             }
                         }
                     }

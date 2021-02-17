@@ -49,7 +49,6 @@ body {
   font-size: 12px;
   background-image: linear-gradient(#af67e9, #6565e7);
   height: 100vh;
-  margin-top: 40%;
   overflow: hidden; }
   body main .container {
     background-color: white;
@@ -98,8 +97,10 @@ body {
           body main .container .main-grid .FAQ .faq-points .question h2 {
             color: #4a4b5e;
             font-size: 0.81rem; }
-          body main .container .main-grid .FAQ .faq-points .question img {
+          body main .container .main-grid .FAQ .faq-points .question .arrow {
             height: 50%; }
+          body main .container .main-grid .FAQ .faq-points .question .rotated {
+            transform: rotate(180deg); }
         body main .container .main-grid .FAQ .faq-points:hover h2 {
           color: #f47c57; }
         body main .container .main-grid .FAQ .faq-points .answer {
@@ -110,6 +111,9 @@ body {
             margin-bottom: 5%;
             line-height: 1.2rem;
             text-align: justify; }
+      body main .container .main-grid .FAQ .active .question h2 {
+        color: #1d1e35;
+        font-weight: 700; }
   body footer .attribution {
     font-size: 11px;
     text-align: center; }
@@ -122,7 +126,7 @@ body {
     html body main .container {
       width: 63%;
       margin: auto;
-      margin-bottom: 9%; }
+      margin-bottom: 5%; }
       html body main .container .main-grid {
         grid-template-columns: repeat(2, 1fr); }
         html body main .container .main-grid .image {
@@ -132,27 +136,33 @@ body {
           html body main .container .main-grid .image .desktop {
             height: 100%;
             display: block;
-            background-image: url("../../Frontend-Mentor-instructions/images/bg-pattern-desktop.svg");
-            background-position: 120% 75%;
-            background-size: 170%;
-            background-repeat: no-repeat;
             position: relative; }
             html body main .container .main-grid .image .desktop img {
               position: absolute; }
+            html body main .container .main-grid .image .desktop .square {
+              width: 200%;
+              left: -115%;
+              top: -280px;
+              clip-path: inset(31.5% 0 16.5% 56%); }
             html body main .container .main-grid .image .desktop .woman {
               width: 100%;
               left: -15%;
+              top: 50px;
               clip-path: inset(0 0 0 15%); }
             html body main .container .main-grid .image .desktop .box {
               width: 42%;
               left: -20%;
-              top: 30%; }
+              top: 180px; }
         html body main .container .main-grid .FAQ {
-          margin-top: 18%; }
+          margin-top: 18%;
+          margin-bottom: 20%; }
           html body main .container .main-grid .FAQ h1 {
             text-align: left;
             margin-left: 7%; }
-          html body main .container .main-grid .FAQ .faq-points .question h2 {
-            font-size: 0.9rem; } }
+          html body main .container .main-grid .FAQ .faq-points .question {
+            padding-bottom: 4%;
+            padding-top: 4%; }
+            html body main .container .main-grid .FAQ .faq-points .question h2 {
+              font-size: 0.9rem; } }
 
 /*# sourceMappingURL=style.css.map */

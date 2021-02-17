@@ -25,6 +25,9 @@ body {
 
                     .mobile {
                         position: relative;
+                        height: 150px;
+                        display: flex;
+                        justify-content: center;
 
                         img {
                             position: absolute;
@@ -32,12 +35,10 @@ body {
 
                         .square {
                             top: -5%;
-                            margin-left: 15%;
                         }
 
                         .woman {
                             top: -105px;
-                            margin-left: 5%;
                         }
                     }
 

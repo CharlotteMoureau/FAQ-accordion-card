@@ -23,29 +23,27 @@
                             .desktop {
                                 height: 100%;
                                 display: block;
+                                background-image: url("../../Frontend-Mentor-instructions/images/bg-pattern-desktop.svg");
+                                background-position: 115% 65%;
+                                background-size: 190%;
+                                background-repeat: no-repeat;
                                 position: relative;
 
                                 img {
                                     position: absolute;
                                 }
 
-                                .square {
-                                    width: 200%;
-                                    left: -115%;
-                                    top: -280px;
-                                    clip-path: inset(31.5% 0 16.5% 56%);
-                                }
                                 .woman {
                                     width: 100%;
                                     left: -15%;
-                                    top: 50px;
+                                    top: 10%;
                                     clip-path: inset(0 0 0 15%);
                                 }
 
                                 .box {
-                                    width: 42%;
+                                    width: 40%;
                                     left: -20%;
-                                    top: 180px;
+                                    top: 40%;
                                 }
                             }
                         }

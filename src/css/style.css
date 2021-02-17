@@ -63,15 +63,16 @@ body {
       body main .container .main-grid .image {
         height: 150px; }
         body main .container .main-grid .image .mobile {
-          position: relative; }
+          position: relative;
+          height: 150px;
+          display: flex;
+          justify-content: center; }
           body main .container .main-grid .image .mobile img {
             position: absolute; }
           body main .container .main-grid .image .mobile .square {
-            top: -5%;
-            margin-left: 15%; }
+            top: -5%; }
           body main .container .main-grid .image .mobile .woman {
-            top: -105px;
-            margin-left: 5%; }
+            top: -105px; }
         body main .container .main-grid .image .desktop {
           display: none; }
         body main .container .main-grid .image .orange-box {
@@ -136,23 +137,22 @@ body {
           html body main .container .main-grid .image .desktop {
             height: 100%;
             display: block;
+            background-image: url("../../Frontend-Mentor-instructions/images/bg-pattern-desktop.svg");
+            background-position: 115% 65%;
+            background-size: 190%;
+            background-repeat: no-repeat;
             position: relative; }
             html body main .container .main-grid .image .desktop img {
               position: absolute; }
-            html body main .container .main-grid .image .desktop .square {
-              width: 200%;
-              left: -115%;
-              top: -280px;
-              clip-path: inset(31.5% 0 16.5% 56%); }
             html body main .container .main-grid .image .desktop .woman {
               width: 100%;
               left: -15%;
-              top: 50px;
+              top: 10%;
               clip-path: inset(0 0 0 15%); }
             html body main .container .main-grid .image .desktop .box {
-              width: 42%;
+              width: 40%;
               left: -20%;
-              top: 180px; }
+              top: 40%; }
         html body main .container .main-grid .FAQ {
           margin-top: 18%;
           margin-bottom: 20%; }

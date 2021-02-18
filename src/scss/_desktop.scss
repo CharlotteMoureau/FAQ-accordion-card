@@ -1,69 +1,68 @@
 @media screen and (min-width: 1008px) {
-    html {
-        body {
-            margin-top: 9%;
 
-            main {
-                
-                .container {
-                    width: 63%;
-                    margin: auto;
-                    margin-bottom: 5%;
+    body {
+        margin-top: 9%;
 
-                    .main-grid {
-                        grid-template-columns: repeat(2, 1fr);
-                
-                        .image {
-                            height: 100%;
+        main {
+            
+            .container {
+                width: 63%;
+                margin: auto;
+                margin-bottom: 5%;
 
-                            .mobile {
-                                display: none;
-                            }
+                .main-grid {
+                    grid-template-columns: repeat(2, 1fr);
+            
+                    .image {
+                        height: 100%;
 
-                            .desktop {
-                                height: 100%;
-                                display: block;
-                                background-image: url("../../Frontend-Mentor-instructions/images/bg-pattern-desktop.svg");
-                                background-position: 115% 65%;
-                                background-size: 190%;
-                                background-repeat: no-repeat;
-                                position: relative;
-
-                                img {
-                                    position: absolute;
-                                }
-
-                                .woman {
-                                    width: 100%;
-                                    left: -15%;
-                                    top: 10%;
-                                    clip-path: inset(0 0 0 15%);
-                                }
-
-                                .box {
-                                    width: 40%;
-                                    left: -20%;
-                                    top: 40%;
-                                }
-                            }
+                        .mobile {
+                            display: none;
                         }
 
-                        .FAQ {
-                            margin-top: 18%;
-                            margin-bottom: 20%;
+                        .desktop {
+                            height: 100%;
+                            display: block;
+                            background-image: url("../../Frontend-Mentor-instructions/images/bg-pattern-desktop.svg");
+                            background-position: 115% 65%;
+                            background-size: 190%;
+                            background-repeat: no-repeat;
+                            position: relative;
 
-                            h1 {
-                                text-align: left;
-                                margin-left: 7%;
+                            img {
+                                position: absolute;
                             }
 
-                            .faq-points {
-                                .question {
-                                    padding-bottom: 4%;
-                                    padding-top: 4%;
-                                    h2 {
-                                        font-size: 0.9rem;
-                                    }
+                            .woman {
+                                width: 100%;
+                                left: -15%;
+                                top: 10%;
+                                clip-path: inset(0 0 0 15%);
+                            }
+
+                            .box {
+                                width: 40%;
+                                left: -20%;
+                                top: 40%;
+                            }
+                        }
+                    }
+
+                    .FAQ {
+                        margin-top: 18%;
+                        margin-bottom: 20%;
+
+                        h1 {
+                            text-align: left;
+                            margin-left: 7%;
+                        }
+
+                        .faq-points {
+                            .question {
+                                padding-bottom: 4%;
+                                padding-top: 4%;
+                                h2 {
+                                    font-size: 0.9rem;
                                 }
                             }
                         }

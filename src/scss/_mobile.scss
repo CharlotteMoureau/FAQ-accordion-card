@@ -3,9 +3,9 @@
 body {
     font-family: 'Kumbh Sans', sans-serif;
     font-size: 12px;
-    background-image: linear-gradient($primary-gradient-1, $primary-gradient-2);
-    height: 100vh;
-    overflow: hidden;
+    background: linear-gradient($primary-gradient-1, $primary-gradient-2);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 
     main {
         .container {

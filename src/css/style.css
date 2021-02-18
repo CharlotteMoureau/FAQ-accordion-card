@@ -47,9 +47,9 @@ table {
 body {
   font-family: 'Kumbh Sans', sans-serif;
   font-size: 12px;
-  background-image: linear-gradient(#af67e9, #6565e7);
-  height: 100vh;
-  overflow: hidden; }
+  background: linear-gradient(#af67e9, #6565e7);
+  background-attachment: fixed;
+  background-repeat: no-repeat; }
   body main .container {
     background-color: white;
     margin-left: 6%;
@@ -122,19 +122,19 @@ body {
       color: white; }
 
 @media screen and (min-width: 1008px) {
-  html body {
+  body {
     margin-top: 9%; }
-    html body main .container {
+    body main .container {
       width: 63%;
       margin: auto;
       margin-bottom: 5%; }
-      html body main .container .main-grid {
+      body main .container .main-grid {
         grid-template-columns: repeat(2, 1fr); }
-        html body main .container .main-grid .image {
+        body main .container .main-grid .image {
           height: 100%; }
-          html body main .container .main-grid .image .mobile {
+          body main .container .main-grid .image .mobile {
             display: none; }
-          html body main .container .main-grid .image .desktop {
+          body main .container .main-grid .image .desktop {
             height: 100%;
             display: block;
             background-image: url("../../Frontend-Mentor-instructions/images/bg-pattern-desktop.svg");
@@ -142,27 +142,27 @@ body {
             background-size: 190%;
             background-repeat: no-repeat;
             position: relative; }
-            html body main .container .main-grid .image .desktop img {
+            body main .container .main-grid .image .desktop img {
               position: absolute; }
-            html body main .container .main-grid .image .desktop .woman {
+            body main .container .main-grid .image .desktop .woman {
               width: 100%;
               left: -15%;
               top: 10%;
               clip-path: inset(0 0 0 15%); }
-            html body main .container .main-grid .image .desktop .box {
+            body main .container .main-grid .image .desktop .box {
               width: 40%;
               left: -20%;
               top: 40%; }
-        html body main .container .main-grid .FAQ {
+        body main .container .main-grid .FAQ {
           margin-top: 18%;
           margin-bottom: 20%; }
-          html body main .container .main-grid .FAQ h1 {
+          body main .container .main-grid .FAQ h1 {
             text-align: left;
             margin-left: 7%; }
-          html body main .container .main-grid .FAQ .faq-points .question {
+          body main .container .main-grid .FAQ .faq-points .question {
             padding-bottom: 4%;
             padding-top: 4%; }
-            html body main .container .main-grid .FAQ .faq-points .question h2 {
+            body main .container .main-grid .FAQ .faq-points .question h2 {
               font-size: 0.9rem; } }
 
 /*# sourceMappingURL=style.css.map */

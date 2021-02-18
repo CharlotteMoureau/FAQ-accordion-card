@@ -22,7 +22,7 @@
 
                         .desktop {
                             height: 100%;
-                            display: block;
+                            display: flex;
                             background-image: url("../../Frontend-Mentor-instructions/images/bg-pattern-desktop.svg");
                             background-position: 115% 65%;
                             background-size: 190%;
@@ -36,14 +36,14 @@
                             .woman {
                                 width: 100%;
                                 left: -15%;
-                                top: 10%;
+                                align-self: center;
                                 clip-path: inset(0 0 0 15%);
                             }
 
                             .box {
                                 width: 40%;
                                 left: -20%;
-                                top: 40%;
+                                top: 42%;
                             }
                         }
                     }

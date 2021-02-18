@@ -115,11 +115,13 @@ body {
       body main .container .main-grid .FAQ .active .question h2 {
         color: #1d1e35;
         font-weight: 700; }
-  body footer .attribution {
-    font-size: 11px;
-    text-align: center; }
-    body footer .attribution a {
-      color: white; }
+  body footer {
+    margin-bottom: 10%; }
+    body footer .attribution {
+      font-size: 11px;
+      text-align: center; }
+      body footer .attribution a {
+        color: white; }
 
 @media screen and (min-width: 1008px) {
   body {
@@ -163,6 +165,8 @@ body {
             padding-bottom: 4%;
             padding-top: 4%; }
             body main .container .main-grid .FAQ .faq-points .question h2 {
-              font-size: 0.9rem; } }
+              font-size: 0.9rem; }
+    body footer {
+      margin-bottom: 5%; } }
 
 /*# sourceMappingURL=style.css.map */

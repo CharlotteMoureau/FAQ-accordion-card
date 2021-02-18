@@ -30,3 +30,7 @@ Mobile:
 I chose to use Sass and to give Javascript a go. I am going for a mobile-first approach.
 
 ## [The result](https://charlottemoureau.github.io/FAQ-accordion-card/)
+
+This was me during the challenge:
+
+![a hedgehog playing accordion](/src/hedge.gif)

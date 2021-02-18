@@ -1,6 +1,6 @@
 # FAQ-accordion-card
 
-This is a solo project started on the 12th of February 2021. I chose the ["faq accordion card"](https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam/hub/faq-accordion-card-9uwjLqOjs) exercise on the [Frontend Mentor](https://www.frontendmentor.io) website. The website provided me with various assets including JPG images of the design files and a basic style guide. There's also a README to help me get started.
+This is a solo project started on the 12th of February 2021. I chose the ["faq accordion card"](https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam) exercise on the [Frontend Mentor](https://www.frontendmentor.io) website. The website provided me with various assets including JPG images of the design files and a basic style guide. There's also a README to help me get started.
 
 ## Rules:
 

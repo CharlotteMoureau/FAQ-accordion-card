@@ -140,21 +140,22 @@ body {
             height: 100%;
             display: flex;
             background-image: url("../../Frontend-Mentor-instructions/images/bg-pattern-desktop.svg");
-            background-position: 115% 65%;
+            background-position: 115% -350px;
             background-size: 190%;
             background-repeat: no-repeat;
             position: relative; }
             body main .container .main-grid .image .desktop img {
               position: absolute; }
             body main .container .main-grid .image .desktop .woman {
+              top: 50px;
               width: 100%;
               left: -15%;
               align-self: center;
               clip-path: inset(0 0 0 15%); }
             body main .container .main-grid .image .desktop .box {
+              top: 220px;
               width: 40%;
-              left: -20%;
-              top: 42%; }
+              left: -20%; }
         body main .container .main-grid .FAQ {
           margin-top: 18%;
           margin-bottom: 20%; }
